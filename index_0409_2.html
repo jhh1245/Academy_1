@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!-- 현재 가장 최신의 html을 사용, 단일태그 -->
+<html>
+    <head>
+        <!-- 브라우저에는 표시되지 않음. 브라우저가 알아야되는 정보 넣어줌. 예를들면 인코딩방식 -->
+        <meta charset="UTF-8"> 
+        <!-- 한글 표현 어떤 방식으로 할건지, 한글 깨지니 주의! 
+            UTF-8: 한글 3byte로, euc-kr : 한글 2byte로 -->
+
+        <title>CSS 공부</title>
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>결합 선택자 </h1>
+        <p>결합 선택자 공부 시간입니다.</p>
+        <div class="java">
+            <p>java 클래스 내 첫번째 p 태그</p>
+            <p>java 클래스 내 두번째 p 태그</p>
+        </div>
+
+        <div class="script">
+            <p>script 클래스 내 첫번째 p 태그</p>
+            <p>script 클래스 내 두번째 p 태그</p>
+            <div class="javascript">
+                <p>java script 클래스 내 첫번째 p 태그</p>
+                <p>java script 클래스 내 두번째 p 태그</p>
+            </div>
+        </div>
+
+       <div class="framework">
+            <p>framework 클래스 내 첫번째 p 태그</p>
+            <p>framework 클래스 내 두번째 p 태그</p>
+        </div>
+        <p>결합 선택자 공부 마칩니다.</p>
+    </body>
+</html>
